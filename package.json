@@ -1,0 +1,26 @@
+{
+  "name": "javascript-typed-sample",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "scripts": {
+    "start": "akashic serve",
+    "start-watch": "akashic serve -w",
+    "export": "rimraf game.zip && akashic export zip -o ./game.zip --nicolive",
+    "lint": "eslint \"script/**/*.js\" --fix",
+    "test": "npm run lint"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "",
+  "devDependencies": {
+    "@akashic/akashic-engine": "^3.13.0",
+    "@akashic/akashic-sandbox": "^0.24.0",
+    "@akashic/headless-akashic": "^4.0.0",
+    "eslint": "^8.24.0"
+  },
+  "dependencies": {
+    "@akashic-extension/akashic-label": "^3.1.0",
+    "@akashic-extension/resolve-player-info": "^1.1.1"
+  }
+}

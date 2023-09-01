@@ -1,0 +1,29 @@
+{
+  "compilerOptions": {
+    "target": "ES2015",
+    "checkJs": true,
+    "allowJs": true,
+    "module": "commonjs",
+    // "importHelpers": true,
+    "lib": [
+      "ES2019",
+      // "DOM",
+    ],
+    "strict": true,
+    "noImplicitAny": true,
+    "suppressImplicitAnyIndexErrors": false,
+    // "noUnusedLocals": true,
+    "declaration": true,
+    "allowUmdGlobalAccess": true
+  },
+  "files": [
+    "node_modules/@akashic/akashic-engine/index.runtime.d.ts",
+  ],
+  "include": [
+    "script/**/*.js",
+    "typings/console.d.ts",
+  ],
+  "exclude": [
+    "node_modules/**/*.*"
+  ]
+}
